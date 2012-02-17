@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+	by Kelley Nielsen
+-->
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/modq_settings"
+        android:key="modqwallpaper_settings">
+
+    <ListPreference
+            android:key="modq_size"
+            android:title="@string/modq_sizesettings_title"
+            android:summary="@string/modq_sizesettings_summary"
+            android:entries="@array/modq_sizenames"
+            android:entryValues="@array/modq_sizevalues"
+            android:defaultValue="3" />
+            
+     <ListPreference
+     	android:key="modq_density"
+        android:title="@string/modq_densitysettings_title"
+        android:summary="@string/modq_densitysettings_summary"
+        android:entries="@array/modq_densitynames"
+        android:entryValues="@array/modq_densityvals"
+        android:defaultValue="8" />
+
+     <ListPreference
+     	android:key="modq_palette"
+        android:title="@string/modq_palettesettings_title"
+        android:summary="@string/modq_palettesettings_summary"
+        android:entries="@array/modq_palettenames"
+        android:entryValues="@array/modq_palettevals"
+        android:defaultValue="primary" />
+
+</PreferenceScreen>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/by Kelley Nielsen
+-->
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="salticid.modquads"
+    android:versionCode="1"
+    android:versionName="1.0">
+    
+
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-feature android:name="android.software.live_wallpaper" />
+
+    <uses-feature android:name="android.software.live_wallpaper" />
+
+    <application
+        android:label="@string/wallpapers"
+        android:icon="@drawable/ic_launcher_modquads">
+
+        <service
+            android:label="@string/wallpaper_modq"
+            android:name="salticid.modquads.ModqLiveWallpaper"
+            android:permission="android.permission.BIND_WALLPAPER" >
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+            <meta-data android:name="android.service.wallpaper" 
+                       android:resource="@xml/modqwallpaper" />
+        </service>
+        <activity
+            android:label="@string/modq_settings"
+            android:name="salticid.modquads.ModqLiveWallpaperSettings"
+            android:theme="@android:style/Theme.WallpaperSettings"
+            android:exported="true">
+        </activity>
+
+    </application>
+</manifest>
+

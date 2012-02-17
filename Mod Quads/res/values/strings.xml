@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* by Kelley Nielsen
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- General -->
+    <skip />
+    <!-- Application name -->
+    <string name="wallpapers">Mod Quads Wallpaper</string>
+
+    <!-- Wallpaper showing a retro collage of rectangles, rounded rectangles and ovals -->
+    <string name="wallpaper_modq">Mod Quads</string>
+    <string name="modq_description">Retro rectangles and ovals</string>
+
+    <string name="modq_settings">Settings</string>
+    <string name="modq_sizesettings_title">Select size</string>
+    <string name="modq_sizesettings_summary">Choose the size of the shapes</string>
+
+	<string name="modq_densitysettings_title">Select density</string>
+	<string name="modq_densitysettings_summary">Choose how many shapes should show on the screen</string>
+
+	<string name="modq_palettesettings_title">Select color range</string>
+	<string name="modq_palettesettings_summary">Choose a color palette for the shapes</string>
+
+</resources>

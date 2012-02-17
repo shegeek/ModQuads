@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+* by Kelley Nielsen
+*/
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="modq_sizenames">
+    	<item>"Tiny"</item>
+        <item>"Small"</item>
+        <item>"Medium"</item>
+        <item>"Large"</item>
+        <item>"Extra Large"</item>
+    </string-array>
+
+    <string-array name="modq_sizevalues">
+        <item>"1"</item>
+        <item>"2"</item>
+        <item>"4"</item>
+        <item>"8"</item>
+        <item>"12"</item>
+    </string-array>
+    
+    <string-array name="modq_densitynames">
+    <item>"Few"</item>
+    <item>"Some"</item>
+    <item>"More"</item>
+    <item>"Most"</item>
+    </string-array>
+
+    <string-array name="modq_densityvals">
+    <item>"4"</item>
+    <item>"8"</item>
+    <item>"12"</item>
+    <item>"16"</item>
+    </string-array>
+
+	<string-array name="modq_palettenames">
+	<item>"Bright"</item>
+	<item>"Soft"</item>
+	<item>"Pastel"</item>
+	<item>"All white"</item>"
+	</string-array>
+	
+	<string-array name="modq_palettevals">
+	<item>"primary"</item>
+	<item>"darkpastel"</item>
+	<item>"pastel"</item>
+	<item>"white"</item>
+	</string-array>
+
+</resources>
